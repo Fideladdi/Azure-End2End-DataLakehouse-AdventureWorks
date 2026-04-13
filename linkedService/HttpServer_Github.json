@@ -1,7 +1,11 @@
 {
 	"name": "HttpServer_Github",
-	"type": "Microsoft.DataFactory/factories/linkedservices",
 	"properties": {
+		"parameters": {
+			"base_url": {
+				"type": "string"
+			}
+		},
 		"annotations": [],
 		"type": "HttpServer",
 		"typeProperties": {
@@ -9,5 +13,6 @@
 			"enableServerCertificateValidation": true,
 			"authenticationType": "Anonymous"
 		}
-	}
+	},
+	"type": "Microsoft.DataFactory/factories/linkedservices"
 }
