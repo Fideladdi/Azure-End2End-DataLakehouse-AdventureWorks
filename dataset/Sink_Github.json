@@ -8,7 +8,7 @@
 		"parameters": {
 			"Sink": {
 				"type": "string",
-				"defaultValue": "sink"
+				"defaultValue": "bronze"
 			},
 			"Folder": {
 				"type": "string"
