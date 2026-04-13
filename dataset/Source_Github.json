@@ -1,0 +1,33 @@
+{
+	"name": "Source_Github",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "HttpServer_Github",
+			"type": "LinkedServiceReference"
+		},
+		"parameters": {
+			"Base_URL": {
+				"type": "string"
+			},
+			"Relative_URL": {
+				"type": "string"
+			},
+			"File_Name": {
+				"type": "string"
+			}
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "HttpServerLocation"
+			},
+			"columnDelimiter": "/",
+			"escapeChar": "\\",
+			"firstRowAsHeader": false,
+			"quoteChar": "\""
+		},
+		"schema": []
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}
