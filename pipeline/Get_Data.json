@@ -112,7 +112,6 @@
 									"referenceName": "Sink_Github",
 									"type": "DatasetReference",
 									"parameters": {
-										"Sink": "sink",
 										"Folder": {
 											"value": "@split(item().filename,'.')[0]",
 											"type": "Expression"
